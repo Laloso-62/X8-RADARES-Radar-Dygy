@@ -1,0 +1,21 @@
+2023/02/08 21:03:53   $$$$ iniciando Aplicacion Radar-DyGy    75833.1620
+2023/02/08-21:03:53   $$$$ inicializando objeto receptor en Radar-Dygy    75833.1660
+2023/02/08-21:03:53   $$$$ receptor Radar-Dygy declarado y activo   75833.1690
+2023/02/08-21:04:26   $$$$ llamada detectada en receptor de RADAR-DYGY      75866.6260
+2023/02/08-21:04:26   $$$$ entro a metodo redirecciona en Radar-Dygy       75866.6290
+2023/02/08-21:04:26   $$$$ en RADAR-DYGY mandando primer mensaje a CGI       75866.6340
+2023/02/08-21:04:26   $$$$ en RADAR-DYGY antes de ejecutar winexec hpaso[cprograma]=c:\apache24\cgi-bin\apis\dygy\api-dygy.exe "c:\apache24\htdocs\dygy\proceso\con-car-cli-10802202300210426.json "       75866.6640
+2023/02/08-21:04:27   $$$$ despues de ejecutar winexec nresultado = 33      75867.9790
+2023/02/08-21:04:27   $$$$ en redirecciona de RADAR-DYGY llamo a ejecutable api y sale de metodo redirecciona      75867.9810
+08/02/2023 21:04:28   ******** Entre a API-DYGY.EXE     75868.0180
+08/02/2023 21:04:28   ******** en onShow de API-DYGY:principal appdata:cfile_json=c:\apache24\htdocs\dygy\proceso\con-car-cli-10802202300210426.json       75868.0220
+08/02/2023 21:04:28   ******** en onShow despues de leer el archivo json=c:\apache24\htdocs\dygy\proceso\con-car-cli-10802202300210426.json       75868.0260
+08/02/2023 21:04:28   ******** antes de rutear cfuncion = consulta_cartera_clientes_excel     75868.0290
+08/02/2023 21:04:28   ******** en API-DYGY Inicializando funcion consulta_cartera_clientes_excel     75868.0320
+08/02/2023 21:04:28   ******** en APi_DYGY ya conectado a servidor de bd     75868.5770
+08/02/2023 21:04:28   ******** en genera_excel_cartera_clientes_antiguedad_un_cliente carma= call digio.sp_consulta_antiguedad_de_clientes_web(1, 0, 26, '2023-02-08', 1)       75868.5840
+08/02/2023 21:04:29   ******** despues de query        75869.4020
+08/02/2023 21:04:29   ******** armando pestaña 1 paso 1     75869.4060
+08/02/2023 21:04:29   ******** armando pestaña 1  paso 2     75869.4110
+08/02/2023 21:04:31   ******** Finalizando y saliendo de funcion genera_excel_cartera_clientes_antiguedad_un_cliente     75871.2300
+08/02/2023 21:04:31   ******** finalizo aplicacion API-DYGY desde modulo principal *-*-*-*-     75871.3230

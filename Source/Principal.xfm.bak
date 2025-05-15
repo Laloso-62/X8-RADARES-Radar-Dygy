@@ -1,0 +1,17 @@
+METHOD CreateForm( lCreate ) CLASS principal
+
+   IF lCreate
+      ::SetBounds( 419, 264, 450, 300 )
+      ::SetClientSize( 434, 262 )
+      ::cText := "rincipal"
+      ::OnInitialize := "FormInitialize"
+      ::Create()
+   ENDIF
+   ::Super:CreateForm( .F. )
+
+   WITH OBJECT ::oRevisa := TTimer():New( Self )
+      :OnTimer := "RevisaTimer"
+      :Create()
+   END
+
+RETURN Self

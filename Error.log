@@ -1,0 +1,42 @@
+***************************** Registro de errores *****************************
+
+             Exe: X:\Xailer8\Radar-Dygy\Radar-Dygy.exe
+         Version: 1.0.0.0
+       User name: EDUARDO CASA
+   Computer name: EDUARDOCASA-PC
+           Fecha: 2023/02/08
+            Hora: 20:54:00
+   Memoria libre: 2602524
+     Area actual: 1
+
+------------------------- Información del compilador --------------------------
+
+  Versión Xailer: Xailer 8.0.1
+      Compilador: Harbour 3.2.0dev (r1912031042)
+Compilador C/C++: MinGW GNU C 7.3 (32-bit)
+      Plataforma: Windows 7 6.1 SP1
+
+----------------------- Información detallada del error -----------------------
+
+      Subsistema: BASE
+ Código de error: 1132
+          Estado: .F.
+     Descripción: Bound error
+       Operación: array access
+      Argumentos:  [ 1] = Tipo: H Valor:  [ 2] = Tipo: C Valor: cprograma_api
+         Fichero: 
+ Código error SO: 0
+
+Pila de llamadas:
+  PRINCIPAL:REDIRECCIONA (142)
+  (b)PRINCIPAL_FORMINITIALIZE (57)
+  TMAILSLOTSERVER:ONREAD (0)
+  TMAILSLOTSERVER:READ (0)
+  PRINCIPAL:REVISATIMER (169)
+  TTIMER:ONTIMER (0)
+  (b)XTIMER (43)
+  TTIMER:WMTIMER (0)
+  RUNFORM (0)
+  TAPPLICATION:RUN (289)
+  MAIN (20)
+
