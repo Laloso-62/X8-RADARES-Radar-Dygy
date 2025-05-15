@@ -1,0 +1,7 @@
+[OPTIONS]
+LockControls=.F.
+[DESKTOP]
+1=Radar-Dygy.prg,14,20,14,20,0,0,400
+2=Principal.prg,158,17,158,17,130,0,648
+3=h_Estructuras.prg,0,0,0,0,0,0,1096
+Current=2
